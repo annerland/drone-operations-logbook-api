@@ -21,7 +21,7 @@ RUN chmod +x /usr/local/bin/install-php-extensions \
     intl \
     opcache \
     pcntl \
-    pdo_pgsql \
+    pdo_mysql \
     redis \
     zip
 

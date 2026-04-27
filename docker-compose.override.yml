@@ -1,4 +1,4 @@
 services:
-  postgres:
+  mysql:
     ports:
-      - "${DB_PORT_PUBLISH:-15432}:5432"
+      - "${DB_PORT_PUBLISH:-13306}:3306"
